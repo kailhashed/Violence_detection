@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large model files
+*.pt
+*.pth
+*.weights
+*.onnx
+
+# Dataset files (add these manually if needed)
+A-Dataset-for-Automatic-Violence-Detection-in-Videos/
+temp_dataset_repo/
+
+# Large output directories
+data/raw/
+data/processed/
+**/runs/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db 

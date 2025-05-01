@@ -1,0 +1,11 @@
+
+# YOLO Violence Detection Dataset
+
+# Train/val/test sets
+train: images/train
+val: images/val
+
+# Classes
+names:
+  0: Violent
+  1: Non-Violent
